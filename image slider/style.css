@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color:violet;
+}
+.images{
+  height: 70vh;
+  width: 50vh;
+  background-image: url('img1.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: 5px 10px black;
+  position: relative;
+}
+button{
+  padding: 7px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  outline: none;
+  border: 3px solid orchid;
+}
+.prevBtn{
+  position: absolute;
+  top:50%;
+  left:0;
+  transform: translate(-50%,-50%);
+}
+.nextBtn{
+  position: absolute;
+  top:50%;
+  left:90%;
+  transform: translateY(-50%);
+}
+
+
